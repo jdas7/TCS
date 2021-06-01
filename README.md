@@ -160,17 +160,17 @@ el correcto funcionamiento del aplicativo en el ambiente de certificación.”
 > > **Entonces** resultado esperado
 > -------------
 
-### H.U-1
+### H.U-2
 
-> “Como ProducOwner quiero realizar las pruebas funcionales del portal
-http://www.advantageonlineshopping.com de las funcionalidades de registro de usuario,
-fogueo de usuario, adición de productos a la cesta de compras y formulario de contacto
-para garantizar el correcto funcionamiento del aplicativo en el ambiente de certificación.”
+> “Como Product-Owner quiero realizar las pruebas de regresión de forma automatizada del
+portal https://www.demoblaze.com/ a través del Browser Chrome con el respectivo informe
+de evidencias y ruta crítica planteada, implementando métodos y herramientas de
+automatización para agilizar y garantizar el correcto funcionamiento del aplicativo.”
 
-1. Indicar cuál sería el procedimiento y documentación a realizar para una correcta
-implementación de estrategia de pruebas.
+***1. Indicar cuál sería el procedimiento y documentación a realizar para una correcta implementación de estrategia de pruebas automatizadas.***
 
--	Trabajando con BDD, se puede implementar mecanismos que 
+##### Procedimiento
+-------------
 -	Luego de tener las HU redactadas con criterios de aceptación y que es lo que quiere negocio podemos iniciar a escribir nuestras pruebas de aceptación, la idea es definir los escenarios de prueba con gherkin que se convertirá en el insumo para la automatización de los features. Podemos definir cuales escenarios son los que irán a la regresión y de todos los escenarios que se contemplen en la regresión, tomaremos los escenarios que son automatizables ("repetitivos") y los iremos sumando a nuestra regresión automatizada.
 -	Al tener los escenarios de prueba automatizados podemos ejecutar las pruebas que diseñamos para la HU que se refino en conjunto con el equipo, aquí podemos ejecutar las pruebas automatizadas verificando que la implementación de ese nuevo feature no impacta en funcionalidades anteriormente desarrolladas y que el nuevo feature funciona de manera correcta, adicional si dejamos pruebas manuales las podemos ejecutar para dar el visto bueno de nuestro producto.
 -	Es importante que como QA estemos presentes desde la definición de HU y requerimientos con el equipo, ya que es el momento donde más bug's se pueden presentar por una mala definición, las HU deben ser comprendidas y no generar dudas dentro del equipo, tiene que tener criterios de aceptación que no generen ambigüedades en la HU y debemos preguntarnos siempre ¿qué pasaría si, llego a cambiar algún valor que modifique mi prueba?, ¿la aplicación podrá manejarlo y contara con esos caminos de excepción que se puedan presentar?.
@@ -189,12 +189,35 @@ implementación de estrategia de pruebas.
 > 
 > 7. Si se va a entregar una versión para producción se realiza una regresión completa, ejecutando las pruebas automatizadas que pasen al 100% y pruebas manuales que estén en la regresión. Luego se entrega reporte de pruebas y se documentan las evidencias de las pruebas realizadas.
 
+##### Documentación
+---------------
 
-2. Realizar la documentación correspondiente que permita conocer y analizar la
-estrategia de certificación de la H.U-1.
+> ***Living Documentation whit serenity BDD.***
+> 
+> Documentación que es producida a partir de las especificaciones ejecutables, la cual es expresada en un lenguaje ubicuo para los usuarios.
+> 
+> Esta documentación siempre estará actualizada ya que se genera a partir de la última versión del sistema.
+> 
+> En la documentación podemos encontrar información técnica como de negocio y sirve como manual de nuestra aplicación.
+>
 
 
+***2. Realizar la documentación correspondiente que permita conocer y analizar la
+estrategia de automatización solicitada en la H.U-2.
+Se deben diseñar y automatizar mínimo 4 escenarios de las pruebas de regresión
+de las siguientes funcionalidades: registro de usuario, login de usuario, registro de
+formulario de contacto y adición del producto MacBook Pro de la sección de
+Laptops***
 
-3. Para la documentación de la planeación apoyarse en las plantillas adjuntas.
-- **No se recibieron las plantillas en el correo.**
 
+- Del portal https://www.demoblaze.com/, La automatización deberá ser desarrollada con las siguientes herramientas y complementos:
+- [ ] Java
+- [ ] Selenium
+- [ ] Cucumber
+- [ ] Gerkhin
+- [ ] ScreenPlay
+- [ ] Serenity-BDD
+- [ ] Principios SOLID
+- [ ] Programación orientada a objetos
+- [ ] Maven
+- [ ] El mapeo de objetos de deberá realizar a travez de la función de xpath.
