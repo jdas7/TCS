@@ -59,7 +59,7 @@ el correcto funcionamiento del aplicativo en el ambiente de certificación.”
 > -------------
 > **Caracteristica:** logueo de usuario
 > 
-> **Para** realizar el login de un usuario en advantageonlineshopping
+> **Para** realizar el login de un usuario en demoblaze
 > 
 > **Como** cliente de la aplicación
 >  
@@ -211,13 +211,14 @@ Laptops***
 
 
 - Del portal https://www.demoblaze.com/, La automatización deberá ser desarrollada con las siguientes herramientas y complementos:
-- [ ] Java
-- [ ] Selenium
-- [ ] Cucumber
-- [ ] Gerkhin
-- [ ] ScreenPlay
-- [ ] Serenity-BDD
-- [ ] Principios SOLID
-- [ ] Programación orientada a objetos
-- [ ] Maven
-- [ ] El mapeo de objetos de deberá realizar a travez de la función de xpath.
+- [X] Java
+- [X] Selenium
+- [X] Cucumber
+- [X] Gerkhin
+- [X] ScreenPlay
+- [X] Serenity-BDD
+- [X] Principios SOLID
+- [X] Programación orientada a objetos
+- [ ] ~~Maven~~
+- [X] Gradle
+- [X] El mapeo de objetos de deberá realizar a travez de la función de xpath.
