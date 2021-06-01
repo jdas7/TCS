@@ -1,6 +1,6 @@
 # Serenity automation e2e
 
-####***Run Commands***:
+#### Run Commands:
 
 --------
 
@@ -8,4 +8,6 @@
 
 Precondiciones: 
 
+- JDK Java 8.
+- Gradle.
 - Descargue el driver de chrome: https://chromedriver.chromium.org/downloads
